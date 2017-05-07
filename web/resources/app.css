@@ -1,0 +1,49 @@
+p, li, td {
+    font-size: small;
+}
+
+h1 {
+    color: yellow;
+    font-size: xx-large;
+    letter-spacing: 8px;
+}
+
+footer {
+    background-color: #000033;
+    color: white;
+    padding-bottom: 5em;
+}
+
+.navbar-default {
+    background-color: #000033;
+}
+
+nav li a {
+    color: white;
+}
+
+nav li + li:before{
+    content: " | ";
+    padding: 0 10px;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+    text-transform: uppercase;
+    font-size: x-large;
+    letter-spacing: 6px;
+}
+
+footer li {
+    font-size: small;
+}
+
+.table-date {
+    font-weight: bold;
+    text-align: right;
+}
+
+#sidebar {
+    border-left: dashed 1px #000033;
+}
