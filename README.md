@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # UE6-Log
+=======
+# WEG_UE5
+>>>>>>> ed8fe428d36960a1d173ed6305e3b05491af351d
 
 - Lege eine neue Datenbank 'wegreisen' auf 'localhost' an
 ```
