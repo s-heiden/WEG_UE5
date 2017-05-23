@@ -27,10 +27,6 @@ http://www.springframework.org/schema/mvc http://www.springframework.org/schema/
         </property>
     </bean>
 
-
-<!--     Where to look for resources (CSS, JS)? 
-    <mvc:resources mapping="/resources/**" location="/resources/" />-->
-
     <!-- Where to look for the views? -->
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver"

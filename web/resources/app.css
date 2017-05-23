@@ -47,3 +47,8 @@ footer li {
 #sidebar {
     border-left: dashed 1px #000033;
 }
+
+.divider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

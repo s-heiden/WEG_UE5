@@ -1,17 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package model;
+package model.pojo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Katharina
- */
 public class Feed {
      final String title;
         final String link;
