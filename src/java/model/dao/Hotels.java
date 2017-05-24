@@ -46,7 +46,11 @@ public class Hotels {
         Session session = HibernateUtil.getSessionFactory().openSession();
         try {
             list = session.createCriteria(Hotel.class)
-                    .add(Restrictions.like("name", name, MatchMode.ANYWHERE))
+                    .add(Restrictions.or(
+                            Restrictions.like("name", name, MatchMode.ANYWHERE),
+                            Restrictions.like("city", name, MatchMode.ANYWHERE),
+                            Restrictions.like("country", name, MatchMode.ANYWHERE))
+                    )
                     .list();
         } catch (HibernateException e) {
             e.printStackTrace();

@@ -61,9 +61,19 @@ public class HelloController {
         return "hotels";
     }
 
-    @RequestMapping(value = "/packageHolidays", method = RequestMethod.GET)
+    @RequestMapping(value = "/packageholidays", method = RequestMethod.GET)
     public String packageHolidays() {
-        return "packageHolidays";
+        return "packageholidays";
+    }
+    
+    @RequestMapping(value = "/travelpreparations", method = RequestMethod.GET)
+    public String travelPreparations() {
+        return "travelpreparations";
+    }
+        
+    @RequestMapping(value = "/popularroutes", method = RequestMethod.GET)
+    public String popularRoutes() {
+        return "popularroutes";
     }
 
     @RequestMapping(value = "/testrss", method = RequestMethod.GET)

@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 # UE6-Log
-=======
-# WEG_UE5
->>>>>>> ed8fe428d36960a1d173ed6305e3b05491af351d
-
 - Lege eine neue Datenbank 'wegreisen' auf 'localhost' an
 ```
 CREATE TABLE `hotels` (
@@ -30,7 +25,7 @@ VALUES
 - Verbinde die Datenbank mit Netbeans, siehe https://netbeans.org/kb/docs/ide/mysql.html
 - Die Database URL in Netbeans ist bei mir: ```jdbc:mysql://localhost:3306/wegreisen?zeroDateTimeBehavior=convertToNull```
 - Habe in Project Properties 'Hibernate' Support hinzugefügt
-- Bin https://www.tutorialspoint.com/hibernate/hibernate_configuration.htm gefolt und habe die hibernate.cfg.xml die JDBC Properties editiert, sodass Hibernate für meine MySQL DB konfiguriert ist. 
+- Bin https://www.tutorialspoint.com/hibernate/hibernate_configuration.htm gefolgt und habe in der ```hibernate.cfg.xml``` die JDBC Properties editiert, sodass Hibernate für meine MySQL DB konfiguriert ist. 
 - Bin gefolgt (bis Minute 8): https://www.youtube.com/watch?v=Zb2cW25prCQ zum Aufsetzen und automatischen Erzeugen der Hibernate-Konfiguration, des Models, usw.
 - Hier sieht man, wie man in Hibernate Queries formuliert: https://www.tutorialspoint.com/hibernate/hibernate_query_language.htm
 - Der Rest war ähnliche Arbeit wie in den letzten Übungen, HelloController anpassen, JSPs erstellen, etc.
